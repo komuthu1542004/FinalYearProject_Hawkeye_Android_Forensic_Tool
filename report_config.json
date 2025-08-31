@@ -1,0 +1,22 @@
+{
+  "case_id": "CCID-2025-0821",
+  "investigator": "K. Mabulage",
+  "owner": "John Doe",
+
+  "fb_username": "facebook.username.here",
+  "ig_username": "ig.username",
+  "ms_username": "ms.username",
+
+  "fb_pred": "C:\\fyp\\FYP_HateSpeechModel\\hatespeech_prediction\\facebook_hate_predictions.csv",
+  "ig_pred": "C:\\fyp\\FYP_HateSpeechModel\\hatespeech_prediction\\instagram_hate_predictions.csv",
+  "ms_pred": "C:\\fyp\\FYP_HateSpeechModel\\hatespeech_prediction\\messenger_hate_predictions.csv",
+
+  "fb_hash": "C:\\fyp\\FYP_HateSpeechModel\\evidence_hash_reports\\facebook_hash_report.csv",
+  "ig_hash": "C:\\fyp\\FYP_HateSpeechModel\\evidence_hash_reports\\instagram_hash_report.csv",
+  "ms_hash": "C:\\fyp\\FYP_HateSpeechModel\\evidence_hash_reports\\messenger_hash_report.csv",
+
+  "out_dir": "C:\\fyp\\FYP_HateSpeechModel\\pdf_reports",
+  "font": "C:\\fyp\\FYP_HateSpeechModel\\fonts\\static\\NotoSansSinhala-Regular.ttf",
+  "logo": "C:\\fyp\\FYP_HateSpeechModel\\assets\\hawkeye_logo.png",
+  "top_n": 25
+}

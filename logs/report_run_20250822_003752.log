@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "C:\fyp\FYP_HateSpeechModel\hawkeye_generate_report.py", line 93, in <module>
+    main()
+  File "C:\fyp\FYP_HateSpeechModel\hawkeye_generate_report.py", line 11, in main
+    if not ask_yes_no(Fore.YELLOW + "\n\U0001f440 Do you need the final hate-speech detection report as a PDF?"):
+  File "C:\fyp\FYP_HateSpeechModel\hawkeye_generate_report.py", line 7, in ask_yes_no
+    a = input(q + " [Y/N][Yes/No]: ").strip().lower()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python310\lib\encodings\cp1252.py", line 12, in encode
+    return codecs.charmap_encode(input,errors,encoding_table)
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f440' in position 6: character maps to <undefined>
